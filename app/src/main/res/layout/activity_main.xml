@@ -40,9 +40,13 @@
 
     <Spinner
         android:id="@+id/spnGenere"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="286dp" />
+        android:layout_width="384dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
